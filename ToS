@@ -1,0 +1,78 @@
+Lunaris Terms of Service
+
+Effective Date: March 4, 2026
+Jurisdiction: Frankfurt am Main, Germany
+
+Welcome to the Lunaris Ecosystem. These Terms of Service ("Terms") constitute a legally binding agreement between you and Lunaris Development (collectively referred to as "Lunaris," "we," "us," or "our") regarding your use of our infrastructure services (Lunaris Hosting) and our proprietary applications (Lunaris-Roblox and Lunaris bots).
+
+By utilizing our hosting services or interacting with our Discord applications, you agree to be bound by these Terms.
+
+1. Structure of Services
+
+The Lunaris ecosystem consists of two primary divisions:
+
+Lunaris Hosting: Provision of high-performance infrastructure, containerized environments, and shared/dedicated resources for developers.
+
+Lunaris Development: Management and operation of the Lunaris and Lunaris-Roblox Discord applications, including data processing and feature updates.
+
+2. Acceptable Use Policy (AUP)
+
+All users of Lunaris Hosting and Lunaris Development applications must comply with the Discord Developer Policy and applicable laws. Prohibited activities include:
+
+Unauthorized Computing: Engaging in cryptocurrency mining, blockchain validation, or any unauthorized distributed computing tasks.
+
+Malicious Content: Hosting, distributing, or linking to malware, ransomware, phishing scripts, or content designed to disrupt security.
+
+Network Attacks: Orchestrating Denial of Service (DoS/DDoS) attacks, port scanning, or brute-force attempts.
+
+Automation Violations: Operating "self-bots" or any automation that violates the Discord Terms of Service.
+
+Resource Abuse: Using hosting services to bypass platform rate limits or engage in mass-spamming/scraping.
+
+3. Data Processing & Discord Bot Operations
+
+By adding Lunaris-Roblox or Lunaris to a Discord server, you acknowledge that Lunaris Development processes the following:
+
+Data Scope: We collect and process metadata including User IDs, Server (Guild) IDs, Channel IDs, Role IDs, and Roblox Account identifiers (via linking).
+
+Purpose: This data is used solely to provide core bot functionality (e.g., verification, moderation, automated roles).
+
+Third-Party Integration: For Lunaris-Roblox, data is synchronized between Discord and Roblox APIs. Lunaris Development is not responsible for the data practices or service availability of Roblox Corporation.
+
+Data Retention: We retain telemetry and ID-based data only as long as necessary to provide the service. Data deletion requests can be made via our official support channels.
+
+4. Lunaris Hosting: Resource Allocation & Stability
+
+System Integrity: Lunaris Hosting reserves the right to throttle, suspend, or terminate instances that negatively impact node stability or interfere with container isolation.
+
+Maintenance: We reserve the right to perform emergency maintenance or migrations without prior notice to protect the security of the hosting environment.
+
+Backups: Lunaris Hosting is not a backup service. Users are strictly responsible for maintaining off-site, redundant backups of their application data and configurations.
+
+5. Financial Terms (Billing & Refunds)
+
+Non-Refundable Fees: All subscription fees for Lunaris Hosting are billed in advance and are non-refundable unless explicitly stated in a separate Service Level Agreement (SLA).
+
+Cancellation: Cancellation stops future billing cycles but does not entitle the user to a prorated refund for the current period.
+
+AUP Violations: If an account is terminated due to a violation of Section 2, all remaining credits and subscription time are forfeited.
+
+6. Limitation of Liability & Disclaimer
+
+"As Is" Basis: All services provided by Lunaris Development and Lunaris Hosting are offered on an "as is" and "as available" basis.
+
+No Warranty: While we maintain a $99.9\%$ uptime target, we do not guarantee error-free operation or 100% availability.
+
+Liability Cap: To the maximum extent permitted by law, Lunaris shall not be liable for indirect, incidental, or consequential damages, including loss of profits, data, or reputation resulting from service interruptions or bot downtime.
+
+7. Indemnification
+
+You agree to indemnify and hold harmless Lunaris Development, Lunaris Hosting, and their operators from any claims, damages, or expenses (including legal fees) arising out of your use of the service, your violation of these terms, or any content processed by your applications on our infrastructure.
+
+8. Governing Law and Jurisdiction
+
+These terms are governed by the laws of the Federal Republic of Germany.
+
+Exclusive Venue: Any disputes arising from these terms shall be handled exclusively in the courts of Frankfurt am Main.
+
+Severability: If any part of these terms is found to be unenforceable, the remaining sections shall remain in full force and effect.
