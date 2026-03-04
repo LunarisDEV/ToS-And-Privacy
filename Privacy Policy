@@ -1,0 +1,55 @@
+Privacy Policy of Lunaris Development and Lunaris Hosting
+
+Document Revision Date: March 4, 2026
+Entity Reference: Lunaris Development and Lunaris Hosting (collectively "the Entity")
+Jurisdictional Compliance: General Data Protection Regulation (GDPR) / Federal Republic of Germany
+
+I. Principles of Data Sovereignty and Minimalist Processing
+
+The Entity operates under a strict mandate of data minimalism. As a specialized provider of infrastructure for the Discord and Roblox ecosystems, primary importance is accorded to the integrity of executable code and the confidentiality of application-layer interactions. It is expressly affirmed that data categorized as personal or proprietary is neither sold, leased, nor exchanged with external third-party commercial interests.
+
+II. Protocols for Information Acquisition
+
+The infrastructure and associated applications are engineered to facilitate the processing of only such data as is strictly requisite for the execution of services:
+
+Identity and Authentication: Access to the secure administrative interface is governed via Discord OAuth2 metadata. Sensitive identifiers, including but not limited to authentication tokens and access credentials, are subjected to SHA-256 (Secure Hash Algorithm 2) protocols, thereby ensuring unidirectional cryptographic obfuscation and the prevention of plaintext exposure.
+
+Infrastructure and Provisioning: Processing is limited to ephemeral application logs, utilized solely for the purpose of diagnostic troubleshooting by developers. Such logs are maintained within volatile buffers and are subject to automated purging cycles. Hardware telemetry is monitored in real-time to mitigate node oversaturation and ensure system equilibrium.
+
+Application Operations (Development): The automated entities designated as Lunaris and Lunaris-Roblox process specific metadata, including User Identifiers (UIDs), Guild Identifiers (GIDs), Channel Identifiers, Role Identifiers, and Roblox Account Identifiers. The processing of said data is deemed essential for the fulfillment of core functionalities, including verification, moderation, and automated role synchronization.
+
+III. Cryptographic Standards and Data Integrity
+
+To ensure the maintenance of elevated security benchmarks, the following technical safeguards are implemented:
+
+SHA-256 Implementation: Sensitive data verification and integrity validation are conducted via SHA-256 hashing. In the event of an unauthorized system breach, the original plain-text values remain mathematically irrecoverable.
+
+Transit Security: Data in transit across the Frankfurt (DE) nodes is secured via TLS 1.3/X25519 encryption protocols.
+
+Logical Isolation: Operational containers are isolated through hard-kernel namespaces, preventing the unauthorized lateral migration of data between disparate environments.
+
+At-Rest Encryption: Comprehensive encryption is enforced across all NVMe storage volumes to protect data in a non-volatile state.
+
+IV. Proscription of Surveillance and Analytical Tracking
+
+The Entity maintains a rigorous policy regarding the absence of third-party surveillance mechanisms.
+
+Statutory Cookies: The system utilizes a singular functional cookie, the purpose of which is restricted to JWT (JSON Web Token) session persistence.
+
+Third-Party Exclusion: The hosting of marketing pixels, analytical beacons, or external advertising scripts is strictly prohibited within the infrastructure.
+
+V. Third-Party Interactions (Roblox and Discord)
+
+Engagement with Lunaris-Roblox necessitates the exchange of data with the Roblox Corporation APIs for the purpose of credential validation. Users are directed to the Roblox Privacy Policy regarding the data handling practices of said external corporation. Furthermore, all interactions facilitated via the Discord platform remain subject to the Discord Privacy Policy.
+
+VI. Rights of the Data Subject (GDPR)
+
+Pursuant to the legal frameworks of the European Union and the Federal Republic of Germany, data subjects are entitled to the following rights:
+
+The right to request comprehensive access to processed data.
+
+The right to demand the permanent erasure of personal records ("Right to be Forgotten").
+
+The right to interpose an objection against specific processing activities.
+
+Inquiries pertaining to data governance or requests for the exercise of statutory rights shall be directed to the support apparatus of Lunaris Development via the officially designated communication channels.
