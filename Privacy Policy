@@ -1,55 +1,47 @@
-Privacy Policy of Lunaris Development and Lunaris Hosting
+Lunaris Privacy Policy
+Effective Date: April 3, 2026 Last Updated: April 3, 2026
 
-Document Revision Date: March 4, 2026
-Entity Reference: Lunaris Development and Lunaris Hosting (collectively "the Entity")
-Jurisdictional Compliance: General Data Protection Regulation (GDPR) / Federal Republic of Germany
+At Lunaris Development, we are committed to being transparent about the data we collect and how it is used to provide our services. This policy outlines our data practices for the Lunaris Discord bot and associated services.
 
-I. Principles of Data Sovereignty and Minimalist Processing
+1. Information We Collect
+We only collect data that is necessary for the bot's functionality and to improve your experience.
 
-The Entity operates under a strict mandate of data minimalism. As a specialized provider of infrastructure for the Discord and Roblox ecosystems, primary importance is accorded to the integrity of executable code and the confidentiality of application-layer interactions. It is expressly affirmed that data categorized as personal or proprietary is neither sold, leased, nor exchanged with external third-party commercial interests.
+A. Discord Metadata
+Identifiers: We process your Discord User ID, Server (Guild) ID, and Channel IDs to identify you and your server.
+Profile Information: We may access your Discord tag and avatar URL for display on profile cards and logs.
+B. Usage & Engagement Metrics
+Activity Stats: We track cumulative counts of messages sent, time spent in voice channels, and total commands executed.
+Rolling Activity: We maintain a rolling 30-day log of your daily message, voice, and command activity to provide "last 30 days" statistics.
+XP & Leveling: We calculate and store Experience Points (XP) and Levels based on your engagement.
+C. Music & Playlists
+Listening History: We store a history of your last 30 played tracks (title, author, and URL).
+Custom Playlists: We store playlists you create within the bot.
+D. Settings & Personalization
+Preferences: Custom bot prefixes, accent colors, and 24/7 mode settings for your server.
+Greetings: Personalized join/leave messages, including custom text and audio links if configured.
+E. Moderation & Support
+Moderation Records: We maintain logs of warnings and mutes (including reasons, durations, and moderator IDs).
+Tickets & Reminders: Data associated with support tickets and active reminders you set.
+Feedback & Reports: Any information you provide via the /feedback, /suggest, or /report commands is sent to our development team for review.
+F. Premium Services
+Subscription Data: We track your premium tier, granting administrator, and expiration date.
+2. How We Use Your Data
+We use the collected information for the following purposes:
 
-II. Protocols for Information Acquisition
+Core Functionality: To play music, manage server moderation, and maintain your settings.
+Experience Gamification: To provide leveling, XP, and profile display features.
+Service Improvement: To analyze feedback and bug reports to enhance bot performance.
+Premium Management: To verify and provide access to premium features.
+3. Data Retention & Security
+Retention: Most statistical data (XP, total counts) is kept while the bot is in your server. Activity logs are on a rolling 30-day cycle. You can request data deletion at any time.
+Security: Your data is stored in secure databases. Access is strictly limited to authorized development team members for maintenance and support purposes.
+No Selling: We NEVER sell, rent, or trade your personal data with third parties.
+4. Your Rights
+Under the GDPR and other privacy frameworks, you have the right to:
 
-The infrastructure and associated applications are engineered to facilitate the processing of only such data as is strictly requisite for the execution of services:
+Access: Request to see what data we have stored about you.
+Deletion: Request the permanent removal of your data from our systems.
+Opt-out: You may opt-out by removing the bot from your server or discontinuing its use.
+To exercise your rights or ask questions, please contact us via our Support Server.
 
-Identity and Authentication: Access to the secure administrative interface is governed via Discord OAuth2 metadata. Sensitive identifiers, including but not limited to authentication tokens and access credentials, are subjected to SHA-256 (Secure Hash Algorithm 2) protocols, thereby ensuring unidirectional cryptographic obfuscation and the prevention of plaintext exposure.
-
-Infrastructure and Provisioning: Processing is limited to ephemeral application logs, utilized solely for the purpose of diagnostic troubleshooting by developers. Such logs are maintained within volatile buffers and are subject to automated purging cycles. Hardware telemetry is monitored in real-time to mitigate node oversaturation and ensure system equilibrium.
-
-Application Operations (Development): The automated entities designated as Lunaris and Lunaris-Roblox process specific metadata, including User Identifiers (UIDs), Guild Identifiers (GIDs), Channel Identifiers, Role Identifiers, and Roblox Account Identifiers. The processing of said data is deemed essential for the fulfillment of core functionalities, including verification, moderation, and automated role synchronization.
-
-III. Cryptographic Standards and Data Integrity
-
-To ensure the maintenance of elevated security benchmarks, the following technical safeguards are implemented:
-
-SHA-256 Implementation: Sensitive data verification and integrity validation are conducted via SHA-256 hashing. In the event of an unauthorized system breach, the original plain-text values remain mathematically irrecoverable.
-
-Transit Security: Data in transit across the Frankfurt (DE) nodes is secured via TLS 1.3/X25519 encryption protocols.
-
-Logical Isolation: Operational containers are isolated through hard-kernel namespaces, preventing the unauthorized lateral migration of data between disparate environments.
-
-At-Rest Encryption: Comprehensive encryption is enforced across all NVMe storage volumes to protect data in a non-volatile state.
-
-IV. Proscription of Surveillance and Analytical Tracking
-
-The Entity maintains a rigorous policy regarding the absence of third-party surveillance mechanisms.
-
-Statutory Cookies: The system utilizes a singular functional cookie, the purpose of which is restricted to JWT (JSON Web Token) session persistence.
-
-Third-Party Exclusion: The hosting of marketing pixels, analytical beacons, or external advertising scripts is strictly prohibited within the infrastructure.
-
-V. Third-Party Interactions (Roblox and Discord)
-
-Engagement with Lunaris-Roblox necessitates the exchange of data with the Roblox Corporation APIs for the purpose of credential validation. Users are directed to the Roblox Privacy Policy regarding the data handling practices of said external corporation. Furthermore, all interactions facilitated via the Discord platform remain subject to the Discord Privacy Policy.
-
-VI. Rights of the Data Subject (GDPR)
-
-Pursuant to the legal frameworks of the European Union and the Federal Republic of Germany, data subjects are entitled to the following rights:
-
-The right to request comprehensive access to processed data.
-
-The right to demand the permanent erasure of personal records ("Right to be Forgotten").
-
-The right to interpose an objection against specific processing activities.
-
-Inquiries pertaining to data governance or requests for the exercise of statutory rights shall be directed to the support apparatus of Lunaris Development via the officially designated communication channels.
+By using Lunaris, you agree to the practices described in this policy.
